@@ -1,6 +1,6 @@
 ﻿using RabbitMQ.Client;
 
-namespace RabbitMQ
+namespace RabbitMQ.RabbitMQ
 {
     public class RabbitMQService
     {
@@ -16,7 +16,7 @@ namespace RabbitMQ
                  
                   If we wanted to take precaution, it is enough to set up a username and password
 
-                 */ 
+                 */
 
                 HostName = _hostName
             };
