@@ -11,12 +11,10 @@ namespace RabbitMQ
             ConnectionFactory connectionFactory = new ConnectionFactory()
             {
                 /*
-        
-                 * RabbitMQ'nun bağlantı kuracağı host'u tanımlıyoruz.
                  
-                 * Herhangi bir güvenlik önlemi koymak istersek
-                   Management ekranından password adımlarını tanımlayıp factory içerisindeki
-                   "UserName" ve "Password" property'lerini set etmemiz yeterlidir.
+                  Define the host
+                 
+                  If we wanted to take precaution, it is enough to set up a username and password
 
                  */ 
 
