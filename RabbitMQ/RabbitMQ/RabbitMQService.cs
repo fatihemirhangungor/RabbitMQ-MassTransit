@@ -1,4 +1,7 @@
-﻿using RabbitMQ.Client;
+﻿using MassTransit;
+using Microsoft.Extensions.DependencyInjection;
+using RabbitMQ.Client;
+using System;
 
 namespace RabbitMQ.RabbitMQ
 {
@@ -8,20 +11,22 @@ namespace RabbitMQ.RabbitMQ
 
         public IConnection GetRabbitMQConnection()
         {
-            ConnectionFactory connectionFactory = new ConnectionFactory()
-            {
-                /*
-                 
-                  Define the host
-                 
-                  If we wanted to take precaution, it is enough to set up a username and password
+            
+            //ConnectionFactory connectionFactory = new ConnectionFactory()
+            //{
+            //    /*
 
-                 */
+            //      Define the host
 
-                HostName = _hostName
-            };
+            //      If we wanted to take precaution, it is enough to set up a username and password
 
-            return connectionFactory.CreateConnection();
+            //     */
+
+            //    HostName = _hostName
+            //};
+
+            //return connectionFactory.CreateConnection();
+            return null;
         }
     }
 }
