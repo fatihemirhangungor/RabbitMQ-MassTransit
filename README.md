@@ -1,5 +1,5 @@
 # RabbitMQ Implementation in .Net 5  
-### This project is about basic implementation of RabbitMQ in .Net 5
+### This project is about implementation of RabbitMQ and Masstransit in .Net 5
 ```
 git clone https://github.com/fatihemirhangungor/RabbitMQ-dotnet5.git
 ```
